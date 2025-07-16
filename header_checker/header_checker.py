@@ -84,7 +84,7 @@ if __name__ == "__main__":
         except Exception as e:
             print("[-] Vendor adı alınamadı:", e)
 
-        cont = input("\n↪Yeni bir URL denemek ister misiniz? (e/h): ").strip().lower()
+        cont = input("\nYeni bir URL denemek ister misiniz? (e/h): ").strip().lower()
         if cont != 'e':
             print("Programdan çıkış yaptınız.")
             break
